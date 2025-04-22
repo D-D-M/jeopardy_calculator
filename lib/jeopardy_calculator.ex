@@ -1,15 +1,7 @@
 defmodule JeopardyCalculator do
   import Number.Currency
   @moduledoc """
-  Worst-case scenario for Jeopardy: A calculator to determine how much money Jeopardy can possibly lose in a single
-  game. This would require a contestant to:
-  - Start with control of the board and never lose it
-  - Give the correct clue for every answer in the Jeopardy round
-  - Luckily avoid finding the Daily Double until the last possible answer
-    - Hope that the Daily Double is on a $200 square, and go all-in
-  - Give the correct clue for every answer in the Double Jeopardy round
-    - Hope that the Daily Doubles are both on $400 squares, and go all-in twice in a row
-  - Go all-in on Final Jeopardy and win!
+  Worst-case scenario for Jeopardy, best-case scenario for contestant.
   """
 
   @jeopardy_board %{ 200 => 6, 400 => 6, 600 => 6, 800 => 6, 1000 => 6 }

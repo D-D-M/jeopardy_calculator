@@ -1,21 +1,16 @@
 # JeopardyCalculator
 
-**TODO: Add description**
+This calculator outlines how much money a contestant can possibly win in a single completely unhinged game of Jeopardy. This would require a contestant to:
+
+- Start with control of the board and never lose it
+- Give the correct question for every answer in the Jeopardy round
+- Luckily avoid finding the Daily Double until the last possible square
+  - Hope that the Daily Double is on a $200 square, and go all-in
+- Give the correct question for every answer in the Double Jeopardy round
+- Avoid finding the two Daily Doubles until the last two possible squares
+  - Hope that the Daily Doubles are both on $400 squares, and go all-in twice in a row
+- Go all-in on Final Jeopardy and win!
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `jeopardy_calculator` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:jeopardy_calculator, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/jeopardy_calculator>.
-
+Download Elixir, clone the repo, and run `mix run lib/jeopardy_calculator.ex`
